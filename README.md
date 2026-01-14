@@ -40,7 +40,7 @@ The system provides a user-friendly and efficient way to manage environmental da
 * **Language:** Python.
 * **Database:** SQLite (Default Django DB).
 * **IDE:** Visual Studio Code.
-* **VS Code Extensions:** Python, Django, SQLite, Prettier, Pylance.
+* **VS Code Extensions:** Python, Python Debugger, Django, SQLite, Prettier, Pylance, Code Runner, open in browser.
 
 ---
 
