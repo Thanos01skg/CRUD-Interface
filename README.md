@@ -27,10 +27,10 @@ The system provides a user-friendly and efficient way to manage environmental da
 
 | Feature | Description |
 | :--- | :--- |
-| **create** | Manually add new measurements via a dedicated input form. |
-| **read** | View a structured table of all recorded data including IDs and values. |
-| **update** | Modify existing records directly from the main dashboard. |
-| **delete** | Remove obsolete or incorrect data entries. |
+| **Create** | Manually add new measurements via a dedicated input form. |
+| **Read** | View a structured table of all recorded data including IDs and values. |
+| **Update** | Modify existing records directly from the main dashboard. |
+| **Delete** | Remove obsolete or incorrect data entries. |
 
 ---
 
