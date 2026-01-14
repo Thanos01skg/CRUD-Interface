@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1>🌡️ Django CRUD Interface: Environmental Monitor</h1>
+  <h1>🌡️ Django CRUD Interface: Factory Environmental Monitor</h1>
   
   <p>
     <b>A Web-based System for Managing Temperature & Humidity Data.</b>
