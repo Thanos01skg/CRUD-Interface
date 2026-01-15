@@ -48,11 +48,15 @@ The system provides a user-friendly and efficient way to manage environmental da
 
 ### 1. Main Dashboard
 The central hub displaying the table of measurements (`Id`, `Temperature`, `Humidity`) and action buttons.
-<img src="path/to/your/image26.png" alt="Main Dashboard" width="80%" />
+
+<img width="550" height="310" alt="crud 1" src="https://github.com/user-attachments/assets/2f177501-db86-41a3-96f0-756d21190d90" />
+
 
 ### 2. Add Measurement Form
 The input interface for submitting new environmental data.
-<img src="path/to/your/image25.png" alt="Add Data Form" width="80%" />
+
+<img width="314" height="230" alt="crud 2" src="https://github.com/user-attachments/assets/fc9f8984-65ed-4fc4-9e2a-e0e153892508" />
+
 
 ---
 
