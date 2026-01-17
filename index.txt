@@ -1,0 +1,42 @@
+<!DOCTYPE html>  <!-- HTML document declaration -->
+<html lang="en">  <!-- Open an HTML document and set the language to English -->
+
+<head>  <!-- Contains meta-information about the document -->
+    <meta charset="UTF-8">  <!-- Ensures that the document can display all types of characters correctly -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">  <!-- Instructs Internet Explorer to use the latest rendering engine -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!-- Viewport control of the page, ensuring proper scaling across different devices -->
+    <title>Document</title>  <!-- Set web page title, displayed in browser tab -->
+</head>
+{% load static %}  <!-- Loading static files e.g. CSS or images -->
+<link rel="stylesheet" href="{% static 'style.css' %}">  <!--  Dynamically generates the correct URL in the style.css file based on Django's static file settings -->
+
+<body>   <!-- This is where the main content of the website begins -->
+    <div class="container">  <!-- Layout control -->
+        <h1>Measurements</h1>   <!-- Heading title -->
+        <table id="customers" border="1">  <!-- Creates an HTML table with id="customers" (used for CSS styling) --> 
+            <thead>  <!-- Sets the header section of the table -->
+                <th>Id</th>  <!-- Each <th> element represents a header cell in the table -->
+                <th>Temperature (°C)</th>
+                <th>Humidity (%)</th>
+                <th colspan="2" id="mid">Action</th>  <!-- Create two cells for actions like "Update" and "Delete" -->
+            </thead> 
+            {% for x in mem %}       <!-- Loop that iterates over the list mem, where mem is a collection of data -->
+            <tr>       <!-- Create a new table row -->
+                <td>{{x.id}}</td>   <!-- Represents a table cell -->
+                <td>{{x.Temperature}}</td>
+                <td>{{x.Humidity}}</td>
+                <td>
+                    <a href="update/{{x.id}}"><button id="up">update</button></a>  <!--  Clicking this button will redirect you to the update URL for this item  -->
+                </td>
+                <td>
+                    <a href="delete/{{x.id}}"><button id="del">delete</button></a>  <!-- Clicking this button will redirect you to the deletion URL for this item  -->
+                </td>
+            </tr>
+            {% endfor %}    <!-- Terminates Django for loop -->
+        </table>
+        <br><br>  <!-- Inserts two line breaks (extra vertical space) on the page -->
+        <a href="{% url 'add' %}"><button id="new3">Add Temperature or Humidity</button></a>  <!-- Create a button that redirects the user to a page, adding new data -->
+    </div>
+</body>
+
+</html>
