@@ -70,10 +70,26 @@ Ensure you have Python installed. It is recommended to select the correct **Inte
 ### 2. Install Dependencies
 Open your terminal and install the required frameworks:
 ```bash
+pip install django
 pip install django djangorestframework
 ```
 
-### 3. Initialize Database
+Verify the installation by checking the Django version:
+```bash
+django-admin --version
+```
+
+### 3. Create the Project
+Initialize the main Django project structure named (`django_project`).
+
+### 4. Create the Application
+Navigate into the project directory and create a new app named (`django_app`) to handle the core functionality.
+```bash
+cd .\django_project\
+django-admin startapp django_app
+```
+
+### 5. Initialize Database
 Apply the migrations to set up the SQLite database structure.
 * `makemigrations` creates the blueprint for model changes.
 * `migrate` applies these changes to the database.
@@ -82,7 +98,7 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-### 4. Run the Application
+### 6. Run the Application
 Start the local development server to launch the web interface:
 ```bash
 python manage.py runserver
