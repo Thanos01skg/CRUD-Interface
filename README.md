@@ -110,6 +110,23 @@ Once running, open your browser and navigate to the local address (usually `http
 
 ---
 
+## 🎨 Frontend & Project Structure
+
+The user interface is built using standard Django templates and static files to ensure a responsive and user-friendly experience.
+
+### 📂 `templates/` (HTML Views)
+This folder contains the HTML files that define the structure of the web pages:
+* **`index.html`**: The main dashboard that displays a table of all recorded temperature and humidity measurements.
+* **`add.html`**: A form interface that allows users to manually input new environmental data into the system.
+* **`update.html`**: A dedicated page for modifying existing records, ensuring data accuracy.
+
+### 📂 `static/` (Styling)
+This folder holds the static assets used to style the application:
+* **`style.css`**: Contains the custom CSS rules that define the visual layout, colors, and typography, giving the interface a clean and professional industrial look.
+
+---
+
+
 ## 📂 Project Structure
 The project follows the standard Django architecture:
 * `django_project/`: Contains core settings, URLs, and WSGI/ASGI configurations.
