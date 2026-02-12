@@ -47,7 +47,7 @@ The system provides a user-friendly and efficient way to manage environmental da
 ## 📸 Interface Screenshots
 
 ### 1. Main Dashboard
-The central hub displaying the table of measurements (`Id`, `Temperature`, `Humidity`) and action buttons.
+The central hub displaying the table of measurements (`Id`, `Temperature`, `Humidity` and `Action buttons`).
 
 <img width="550" height="310" alt="crud 1" src="https://github.com/user-attachments/assets/2f177501-db86-41a3-96f0-756d21190d90" />
 
