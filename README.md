@@ -81,6 +81,9 @@ django-admin --version
 
 ### 3. Create the Project
 Initialize the main Django project structure named (`django_project`).
+```bash
+django-admin startproject django_project
+```
 
 ### 4. Create the Application
 Navigate into the project directory and create a new app named (`django_app`) to handle the core functionality.
