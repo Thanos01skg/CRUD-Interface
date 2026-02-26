@@ -178,3 +178,11 @@ This structured data allows for:
 * **Real-Time Monitoring**: Detecting deviations in temperature or humidity that could affect an industrial environment.
 * **Data Visualization**: Data can be displayed in graphs, providing critical information for identifying problems.
 * **Decision Making**: Providing a reliable basis for automation and effective real-time decision making.
+
+---
+
+## 🎬 Live Demonstration
+The following demonstration highlights the system's custom web interface designed for direct data management. It showcases the full **CRUD (Create, Read, Update, Delete)** lifecycle of the sensor measurements. Through this interface, users can manually add new temperature and humidity records, modify existing entries, and delete obsolete data. Furthermore, the video confirms the data integrity by verifying that all frontend actions are instantly and accurately synced with the underlying **SQLite database** in the backend.
+
+https://github.com/user-attachments/assets/9eb38266-28fd-4389-afdd-4787e0e63544
+
